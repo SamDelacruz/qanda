@@ -1,3 +1,7 @@
+Template.question_form.helpers({
+
+});
+
 Template.question_form.events({
   "submit .new-question": function(event) {
     var summary = event.target.summary.value.trim();
