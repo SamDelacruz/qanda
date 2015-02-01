@@ -1,0 +1,13 @@
+<template name="question_list">
+  <div class="panel panel-default">
+    <table class="table table-hover">
+      <tbody>
+      {{#each questions}}
+        <tr>
+            {{> question}}
+        </tr>
+      {{/each}}
+      </tbody>
+    </table>
+  </div>
+</template>
